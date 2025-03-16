@@ -1,18 +1,11 @@
-## Getting Started
+## Descrição do projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Aplicação para gerenciamento de inscrições em um evento promovido por uma instituição. Onde é feito inscrições de participantes em oficinas deste evento e é possível o acesso a informações sobre essas inscrições.
 
-## Folder Structure
+## Descrição de uso 
 
-The workspace contains two folders by default, where:
+No aplicativo é possível fazer inscrições de participantes com as informações de nome, CPF, sexo e data de nascimento, sendo permitido a inscrição de um único participante por CPF, podendo ser cadastrado em uma a três oficinas, são 6 oficinas disponíveis e cada uma com o limite de 30 vagas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Pelo CPF é possível fazer a busca no sistema por informações do participante, pode ser verificado também a quantidade de vagas em cada oficina, além de ter os nomes de todos os participantes menores de idade cadastrados em uma oficina especifica.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Pode ser feita a consulta sobre as estatísticas das inscrições, onde é dada percentuais a partir do sexo dos participantes, dos números de inscritos por oficina e percentual de faixa etária dos inscritos em cada uma dessas oficinas.
