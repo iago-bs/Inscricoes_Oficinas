@@ -1,0 +1,5 @@
+#Ignorar pasta de configuração do vscode
+.vscode
+
+#Ignorar pasta bin
+bin
